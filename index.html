@@ -168,6 +168,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
@@ -220,9 +222,17 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--595412856</li>
 
+<li>$:/state/toc/Contents-Data science--905582679</li>
+
 <li>$:/state/toc/Contents-Data Science--930108635</li>
 
+<li>$:/state/toc/Contents-Data science--930108635</li>
+
+<li>$:/state/toc/Contents-Knowledge management--905582679</li>
+
 <li>$:/state/toc/Contents-Knowledge management--930108635</li>
+
+<li>$:/state/toc/Contents/Data science-Statistics--930108635</li>
 
 <li>$:/state/twitter/usage-195781886-195781886</li>
 
@@ -251,6 +261,10 @@ Error message and password prompt
 <li>JavaScript</li>
 
 <li>Knowledge management</li>
+
+<li>Linear mixed models</li>
+
+<li>Statistics</li>
 
 <li>TiddlyWiki</li>
 
@@ -321,6 +335,9 @@ display:block;
 <pre>yes</pre>
 </div>
 <div created="20210128221813781" modified="20210128221813781" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search">
+<pre>show</pre>
+</div>
+<div created="20210316200404232" modified="20210316200404233" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
 <div created="20210128221801519" modified="20210128221801519" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
@@ -10504,8 +10521,8 @@ display:block;
 <div created="20210314032227947" modified="20210314204710463" title="$:/state/plugin-info-2069695326-$:/plugins/tiddlywiki/twitter--1140713763">
 <pre>usage</pre>
 </div>
-<div created="20210202165635037" modified="20210314213335117" title="$:/state/showeditpreview">
-<pre>no</pre>
+<div created="20210202165635037" modified="20210316194756128" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
 <div created="20210314205007618" modified="20210314211742506" title="$:/state/sidebar">
 <pre>yes</pre>
@@ -10528,20 +10545,32 @@ display:block;
 <div created="20210314214256470" modified="20210314214302951" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Orphans</pre>
 </div>
-<div created="20210128220251567" modified="20210314214401987" title="$:/state/tab/sidebar--595412856">
+<div created="20210128220251567" modified="20210316200409865" title="$:/state/tab/sidebar--595412856">
 <pre>Home</pre>
+</div>
+<div created="20210316200305126" modified="20210316200305126" title="$:/state/toc/Contents-Data science--905582679">
+<pre>open</pre>
 </div>
 <div created="20210314214008031" modified="20210314214008031" title="$:/state/toc/Contents-Data Science--930108635">
 <pre>open</pre>
 </div>
-<div created="20210314214202446" modified="20210314214211636" title="$:/state/toc/Contents-Knowledge management--930108635">
+<div created="20210316194810480" modified="20210316194810480" title="$:/state/toc/Contents-Data science--930108635">
+<pre>open</pre>
+</div>
+<div created="20210316200311790" modified="20210316200313115" title="$:/state/toc/Contents-Knowledge management--905582679">
+<pre>close</pre>
+</div>
+<div created="20210314214202446" modified="20210316200249438" title="$:/state/toc/Contents-Knowledge management--930108635">
+<pre>open</pre>
+</div>
+<div created="20210316194855138" modified="20210316195754628" title="$:/state/toc/Contents/Data science-Statistics--930108635">
 <pre>close</pre>
 </div>
 <div created="20210314032313332" modified="20210314204718218" title="$:/state/twitter/usage-195781886-195781886">
 <pre>$:/plugins/tiddlywiki/twitter/usage/tweet</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
-<pre>yes</pre>
+<pre>no</pre>
 </div>
 <div list="Home" title="$:/StoryList">
 <pre></pre>
@@ -10696,16 +10725,20 @@ display:block;
 
 &lt;$twitter type=&quot;tweet&quot; width=&quot;400&quot; tweetID=&quot;1367263598028984321&quot; alt=&quot;Ducks hanging out in trees&quot;/&gt;</pre>
 </div>
-<div created="20210314213850586" modified="20210314214105118" tags="Contents" title="Data science">
-<pre></pre>
+<div created="20210314213850586" modified="20210316200332256" tags="Contents" title="Data science">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable 'Data science' sort[title]&gt;&gt;
+&lt;/div&gt;</pre>
 </div>
-<div created="20210314212613971" modified="20210314212734994" tags="Contents" title="Education">
-<pre></pre>
+<div created="20210314212613971" modified="20210316200345275" tags="Contents" title="Education">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable 'Education' sort[title]&gt;&gt;
+&lt;/div&gt;</pre>
 </div>
 <div created="20210314213942378" modified="20210314214105118" tags="[[Data science]]" title="Exploratory data analysis">
 <pre></pre>
 </div>
-<div caption="Contents" created="20210128231301486" list-before="$:/core/ui/SideBar/Open" modified="20210314212842984" tags="$:/tags/SideBar Home" title="Home">
+<div caption="Contents" created="20210128231301486" list-before="$:/core/ui/SideBar/Open" modified="20210316200320533" tags="$:/tags/SideBar Home" title="Home">
 <pre>Hi! I'm Eric Leung. And welcome to my working notes where I experiment with ideas that are on my mind or want to in the future.
 
 &lt;div class=&quot;tc-table-of-contents&quot;&gt;
@@ -10720,7 +10753,24 @@ display:block;
 * JavaScript Design Patterns https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 * Eloquent JavaScript https://eloquentjavascript.net/</pre>
 </div>
-<div created="20210314212925445" modified="20210314214128166" tags="Contents [[Knowledge base]] [[Note taking]]" title="Knowledge management">
+<div created="20210314212925445" modified="20210316200357023" tags="Contents [[Knowledge base]] [[Note taking]]" title="Knowledge management">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable 'Knowledge management' sort[title]&gt;&gt;
+&lt;/div&gt;</pre>
+</div>
+<div created="20210316194859909" modified="20210316195819843" tags="Statistics" title="Linear mixed models">
+<pre>* ''general linear model'' = linear combination of independent variables and regression coefficients
+* ''generalized linear model'' = flexible regression model with response variable modeled with different distribution
+* ''linear mixed model'' = model with fixed and random effects
+* ''random effects'' = parameters are random variables which can change with different samples (e.g., subject-specific effects)
+* ''fixed effects'' = parameters with non-random quantities (e.g., population average effects)
+
+!! Resources
+
+* https://en.wikipedia.org/wiki/Linear_model
+* http://campus.murraystate.edu/academic/faculty/cmecklin/STA565/_book/an-introduction-to-linear-mixed-models.html</pre>
+</div>
+<div created="20210316194812854" modified="20210316194853387" tags="[[Data science]] Statistics" title="Statistics">
 <pre></pre>
 </div>
 <div created="20210314214138294" modified="20210314214204444" tags="[[Knowledge management]]" title="TiddlyWiki">
